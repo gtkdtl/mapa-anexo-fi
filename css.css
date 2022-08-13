@@ -1,0 +1,69 @@
+
+p {
+    color: black;
+}
+.introduccion {
+    margin-top: 0.5em;
+    color: red;
+    margin-left: 1em;
+}
+
+
+
+
+.btn-primary {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.btn-primary:hover {
+    color: red;
+}
+
+
+model-viewer {
+    width: auto;
+    height: 85vh;
+    background-color: rgb(231, 231, 231);
+    margin: 1vh 0vh;
+    border-radius: 1em;
+    border-style: solid;
+}
+
+.salones {
+    margin-top: 1em;
+}
+.dropdown {
+    margin: 0.1em 1em;
+    align-items: center;
+    width: 50%;
+}
+
+.icono {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    margin: 0.1em 0.2em;
+    text-align: center;
+    width: auto;
+}
+
+.icono:hover {
+    background-color: rgb(209, 209, 209);
+    color:red;
+}
+
+
+@media only screen and (min-width: 577px) {
+    model-viewer {
+        width: auto;
+        
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    model-viewer {
+        width: auto;
+        height: 98vh;
+    }
+  }
